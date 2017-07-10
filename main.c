@@ -188,7 +188,7 @@ ISR(TIMER0_OVF_vect)
 								if(c_voltage > e_voltage)
 								{
 									if(d_fill < 51)
-										d_fill++;
+										d_fill--;
 								}
 							}
 						}
